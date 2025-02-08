@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", serif;
+}
+html{
+  direction: rtl;
+}
+
+
+section{
+  background: url(assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+section .container{
+  width: 550px;
+  background: #332a224e;
+  padding: 30px 25px;
+  backdrop-filter: blur(1px);
+  border: 1px  solid #994739;
+  border-radius: 10%;
+  margin-right: 15%;
+  
+}
+section .top_section{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #a74c3c;
+}
+section .top_section select{
+  width: 125px;
+  border-radius: 5px;
+  outline: none;
+  background: #a54f3a;
+  color: white;
+  padding: 2px 10px;
+  margin-top: 10px;
+
+}
+section .top_section h3{
+  font-size: 20px;
+  color: white;
+}
+
+section .top_section .date{
+
+  width: 125px;
+}
+
+
+section .top_section .date h4{
+  color: white;
+  margin-top: 10px;
+}
+
+section .prayer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  background: #c0583e75;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+}
+.day{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #a74c3c;
+  color: white;
+}
+.day h3{
+  font-size: 15px;
+}
