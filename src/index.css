@@ -29,6 +29,7 @@ section .container{
   border: 1px  solid #994739;
   border-radius: 10%;
   margin-right: 15%;
+  margin-left: 15%;
   
 }
 section .top_section{

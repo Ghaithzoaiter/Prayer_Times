@@ -99,7 +99,7 @@ function App() {
     <Prayer Name="الفجر:" times={convertTo12Hour (prayerTimes.Fajr)}/>
     <Prayer Name="الظهر:" times={convertTo12Hour (prayerTimes.Dhuhr)}/>
     <Prayer Name="العصر:" times={convertTo12Hour (prayerTimes.Asr)}/>
-    <Prayer Name="المعرب:" times={convertTo12Hour (prayerTimes.Maghrib)}/>
+    <Prayer Name="المغرب:" times={convertTo12Hour (prayerTimes.Maghrib)}/>
     <Prayer Name="العشاء:" times={convertTo12Hour (prayerTimes.Isha)}/>
 
     </div>
